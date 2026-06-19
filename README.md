@@ -68,7 +68,20 @@ fun_fact:    will Nixify your homelab whether you asked or not
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kitsunoff&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1b27&title_color=8b5cf6&icon_color=ec4899" />
+<table>
+<tr><td align="center" width="420">
+
+#### 📊 Total Commits This Year
+
+# `Something went wrong` 🤷
+
+*"Why are there no commits?"* — relax, they're real.<br/>
+The stats card just rate-limited itself into oblivion.<br/>
+**Trust the vibes, not the API.** ✨
+
+</td></tr>
+</table>
+
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kitsunoff&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=8b5cf6&langs_count=8" />
 
 <br/>
