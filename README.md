@@ -64,6 +64,22 @@ fun_fact:    will Nixify your homelab whether you asked or not
 
 ---
 
+## 🤖 Vibe Coding Stack
+
+> The agents that pair-program with me at 3 AM 🌙
+
+<div align="center">
+
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenClaw](https://img.shields.io/badge/🦞%20OpenClaw-0b9b8a?style=for-the-badge&logoColor=white)
+![Opus](https://img.shields.io/badge/Claude%20Opus-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white)
+![Qwen](https://img.shields.io/badge/Qwen-615CED?style=for-the-badge&logo=alibabacloud&logoColor=white)
+
+</div>
+
+---
+
 ## 📊 The Stats Don't Lie (the bio does)
 
 <div align="center">
