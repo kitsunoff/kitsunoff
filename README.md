@@ -88,10 +88,6 @@ The stats card just rate-limited itself into oblivion.<br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=kitsunoff&theme=tokyonight&hide_border=true&background=1a1b27&ring=8b5cf6&fire=ec4899&currStreakLabel=8b5cf6" />
 
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=kitsunoff&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6" />
-
 </div>
 
 ---
