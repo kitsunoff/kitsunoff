@@ -34,7 +34,7 @@ role:        Platform / Cloud-Native Engineer @ aenix-io
 location:    Yerevan, Armenia 🇦🇲
 self_image:  ".NET junior developer"   # citation needed 😏
 reality:     Go · Nix · Kubernetes · TypeScript · C# · WASM
-currently:   shipping Cozystack — open-source PaaS on Kubernetes ☁️
+currently:   shipping Cozystack ☁️ · converging NixOS clusters ❄️ · running pets in pods 🐾
 fun_fact:    will Nixify your homelab whether you asked or not
 ```
 
@@ -48,7 +48,7 @@ fun_fact:    will Nixify your homelab whether you asked or not
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Nix](https://img.shields.io/badge/Nix-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Rust-adjacent WASM](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
@@ -56,7 +56,7 @@ fun_fact:    will Nixify your homelab whether you asked or not
 ![Docker](https://img.shields.io/badge/Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
 
-![TypeScript Frontend](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
@@ -114,14 +114,24 @@ The stats card just rate-limited itself into oblivion.<br/>
 
 | 🌟 Project | What it does | Stack |
 | --- | --- | --- |
-| ⚡ [**nixactions**](https://github.com/kitsunoff/nixactions) | GitHub Actions, but make it Nix — declarative CI that actually reproduces | `Nix` ⭐14 |
-| ☸️ [**n8n-node-kubernetes-api**](https://github.com/kitsunoff/n8n-node-kubernetes-api) | OpenAPI-driven Kubernetes node for n8n automation | `JavaScript` ⭐5 |
-| 🖥️ [**system-manager**](https://github.com/kitsunoff/system-manager) | NixOS modules on *any* Linux — Nix sneaks in everywhere | `Nix` ⭐3 |
-| 🧪 [**nixcluster** / **nix8s-lab**](https://github.com/kitsunoff/nixcluster) | A whole Kubernetes lab, declared in Nix, because why not | `Nix` |
-| 🎵 [**yandex-music-lidarr**](https://github.com/kitsunoff/yandex-music-lidarr) | Hi-Res FLAC indexer for Lidarr w/ on-the-fly AES-CTR decryption | `C#` ⭐2 |
-| 🧩 [**wasmtime-dotnet-component-model**](https://github.com/kitsunoff/wasmtime-dotnet-component-model) | WASI 0.2 host bindings + Roslyn source-gen from WIT | `C#` |
+| 🐾 [**stateful-pods**](https://github.com/kitsunoff/stateful-pods) | A whole OS as a *pet* in a Kubernetes pod — own init, own package manager, rootfs on a PVC. Proxmox LXC energy, K8s primitives. | `Shell` `Helm` `Go` [![stars](https://img.shields.io/github/stars/kitsunoff/stateful-pods?style=flat-square&label=&color=8b5cf6&labelColor=1a1b27)](https://github.com/kitsunoff/stateful-pods/stargazers) |
+| ⚡ [**nixactions**](https://github.com/kitsunoff/nixactions) | GitHub Actions, but make it Nix — declarative CI that actually reproduces | `Nix` [![stars](https://img.shields.io/github/stars/kitsunoff/nixactions?style=flat-square&label=&color=8b5cf6&labelColor=1a1b27)](https://github.com/kitsunoff/nixactions/stargazers) |
+| ❄️ [**nixcluster**](https://github.com/kitsunoff/nixcluster) | Declarative NixOS clusters, converged by one idempotent command. Two-way reconciliation: leaving the config means leaving the cluster. | `Nix` [![stars](https://img.shields.io/github/stars/kitsunoff/nixcluster?style=flat-square&label=&color=8b5cf6&labelColor=1a1b27)](https://github.com/kitsunoff/nixcluster/stargazers) |
+| 🤖 [**NIO**](https://github.com/kitsunoff/NIO) | NixOS Infrastructure Operator — day-2 NixOS from inside Kubernetes. Currently rewriting it from kopf to kubebuilder. | `Go` [![stars](https://img.shields.io/github/stars/kitsunoff/NIO?style=flat-square&label=&color=8b5cf6&labelColor=1a1b27)](https://github.com/kitsunoff/NIO/stargazers) |
+| ☸️ [**n8n-node-kubernetes-api**](https://github.com/kitsunoff/n8n-node-kubernetes-api) | OpenAPI-driven Kubernetes node for n8n automation | `JavaScript` [![stars](https://img.shields.io/github/stars/kitsunoff/n8n-node-kubernetes-api?style=flat-square&label=&color=8b5cf6&labelColor=1a1b27)](https://github.com/kitsunoff/n8n-node-kubernetes-api/stargazers) |
+| 🖥️ [**system-manager**](https://github.com/kitsunoff/system-manager) | NixOS modules on *any* Linux — Nix sneaks in everywhere | `Nix` [![stars](https://img.shields.io/github/stars/kitsunoff/system-manager?style=flat-square&label=&color=8b5cf6&labelColor=1a1b27)](https://github.com/kitsunoff/system-manager/stargazers) |
 | 🐚 [**shell-apiserver**](https://github.com/kitsunoff/shell-apiserver) | A K8s Aggregated API Server where CRUD = shell scripts. Cursed. Works. | `Go` |
-| 🔄 [**ts-type-visitor**](https://github.com/kitsunoff/ts-type-visitor) | TypeScript → Go transpiler via the TS compiler API | `TypeScript` |
+| 🎵 [**yandex-music-lidarr**](https://github.com/kitsunoff/yandex-music-lidarr) · [**youtube-music-lidarr**](https://github.com/kitsunoff/youtube-music-lidarr) | Hi-Res FLAC indexer for Lidarr w/ on-the-fly AES-CTR decryption, plus its YouTube Music sibling | `C#` [![stars](https://img.shields.io/github/stars/kitsunoff/yandex-music-lidarr?style=flat-square&label=&color=8b5cf6&labelColor=1a1b27)](https://github.com/kitsunoff/yandex-music-lidarr/stargazers) |
+| 🧩 [**wasmtime-dotnet** `component-model`](https://github.com/kitsunoff/wasmtime-dotnet/tree/component-model) | WASI 0.2 host bindings + Roslyn source-gen from WIT, aimed upstream | `C#` |
+| 🍎 [**Nix**](https://github.com/kitsunoff/Nix) | My machines as code — macOS *and* a Steam Deck, dendritic pattern + flake-parts | `Nix` [![stars](https://img.shields.io/github/stars/kitsunoff/Nix?style=flat-square&label=&color=8b5cf6&labelColor=1a1b27)](https://github.com/kitsunoff/Nix/stargazers) |
+
+---
+
+## 🎤 Talks
+
+| 🗓️ | Talk | Deck |
+| --- | --- | --- |
+| 2026 | **NixOS instead of Talos** — declarative bare-metal Kubernetes nodes with NixOS 🇷🇺 | [slides](https://github.com/kitsunoff/nixos-for-kubernetes) `Slidev` |
 
 ---
 
@@ -133,10 +143,11 @@ The stats card just rate-limited itself into oblivion.<br/>
 [![nixpkgs](https://img.shields.io/badge/nixpkgs-contributor-5277C3?style=flat-square&logo=nixos&logoColor=white)](https://github.com/NixOS/nixpkgs)
 [![Talos](https://img.shields.io/badge/talm-GitOps%20Talos-FF7300?style=flat-square&logo=linux&logoColor=white)](https://github.com/cozystack/talm)
 [![Homebrew](https://img.shields.io/badge/homebrew--core-🍻-FBB040?style=flat-square)](https://github.com/Homebrew/homebrew-core)
+[![homystack](https://img.shields.io/badge/homystack-NixOS%20operator-009688?style=flat-square&logo=nixos&logoColor=white)](https://github.com/homystack)
 
 </div>
 
-I spend most days deep in **Cozystack** — a Free & Open Source PaaS for running VMs, managed Kubernetes, and DBaaS on bare metal. Also poke at `nixpkgs`, Talos tooling, and the occasional WASM rabbit hole. 🐇
+I spend most days deep in **Cozystack** — a Free & Open Source PaaS for running VMs, managed Kubernetes, and DBaaS on bare metal. The rest goes into **NixOS as a Kubernetes node OS**: `nixcluster` for bootstrap, `NIO` for day-2, and a talk to argue about it. Occasional `nixpkgs`, Talos tooling and WASM rabbit holes. 🐇
 
 ---
 
@@ -145,7 +156,7 @@ I spend most days deep in **Cozystack** — a Free & Open Source PaaS for runnin
 - 🦊 The `kitsune` in the handle is not an accident — yes, I like foxes
 - 📡 Tinkering with [Reticulum](https://github.com/kitsunoff/Reticulum) mesh networking (LoRa / packet radio / off-grid comms)
 - 🎮 Career started with Minecraft mods & Telegram bots — everyone starts somewhere
-- 🏠 My homelab has more uptime than my sleep schedule
+- 🏠 My homelab has more uptime than my sleep schedule, and now it runs pets in pods
 
 ---
 
